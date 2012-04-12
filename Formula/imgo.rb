@@ -4,7 +4,7 @@ class Imgo <Formula
   url 'git://github.com/imgo/imgo.git'
   homepage 'http://imgcomp.com'
   md5 ''
-  @version='0.2'
+  @version='0.3'
 
  depends_on 'imagemagick'
  depends_on 'pngout'
@@ -17,6 +17,7 @@ class Imgo <Formula
  depends_on 'pngnq'
  depends_on 'defluff'
  depends_on 'cryopng'
+ depends_on 'pngcrush'
 
   def install
     bin.install 'imgo'

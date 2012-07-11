@@ -4,7 +4,7 @@ class Imgo <Formula
   url 'git://github.com/imgo/imgo.git'
   homepage 'http://imgcomp.com'
   md5 ''
-  @version='0.4'
+  version='0.4'
 
  depends_on 'imagemagick'
  depends_on 'pngout'

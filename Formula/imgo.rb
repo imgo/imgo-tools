@@ -3,8 +3,8 @@ require 'formula'
 class Imgo <Formula
   url 'git://github.com/imgo/imgo.git'
   homepage 'http://imgcomp.com'
-  md5 ''
-  version '0.7'
+  md5 'bb0b7af34236ae5b475b8902602df11b'
+  version '0.8'
 
  depends_on 'imagemagick'
  depends_on 'pngout'

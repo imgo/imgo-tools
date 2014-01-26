@@ -9,7 +9,7 @@ class Imgo <Formula
  depends_on 'imagemagick'
  depends_on 'pngout'
  depends_on 'optipng'
- depends_on 'pngrewrite'
+ depends_on 'imageworsener'
  depends_on 'exiftool'
  depends_on 'advancecomp'
  depends_on 'jpeg'

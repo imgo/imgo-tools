@@ -3,8 +3,7 @@ require 'formula'
 class Defluff <Formula
   url 'https://raw.github.com/imgo/imgo-tools/master/src/defluff/defluff-0.3.2-darwin-x86.zip'
   homepage 'http://encode.ru/threads/1214-defluff-a-deflate-huffman-optimizer'
-  md5 '37811640ba84c6180dc477596a89302a'
-  sha1 'b0f7bba518ad55bc713334f05cdd284d43652bb2'
+  sha256 'e94044a2a478cfa6a9fc8a27d39a68c8b9b5c46ab1257837a2326089a3872f71'
   @version='0.3.2'
 
   def install

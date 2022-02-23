@@ -1,7 +1,7 @@
 require 'formula'
 
 class Imgo <Formula
-  url 'git://github.com/imgo/imgo.git'
+  head 'git://github.com/imgo/imgo.git', :using => :git
   homepage 'http://imgcomp.com'
   version '0.8'
 
